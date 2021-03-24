@@ -1,0 +1,42 @@
+/* pages/addFunction/addFunction.wxss */
+
+@import "../../style/guide.wxss";
+.widget {
+  border: 5rpx solid rgb(226, 204, 7);
+  /* width: 50;
+  height: 50; */
+}
+.top {
+    margin-top: 180rpx;
+    width: 300rpx;
+    height: 300rpx;
+    /* padding: 100rpx; */
+    border: 5rpx solid rgb(226, 204, 7);
+    box-sizing: border-box;
+    border-radius: 126rpx;
+}
+.value {
+  margin-top: 20rpx;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  /* border-radius: 85rpx; */
+
+}
+.icon {
+   width: 300px;
+    height: 100px;
+    border: 1px solid blue;
+    box-sizing: border-box;
+
+}
+
+.attr {
+  margin-top: 50rpx;
+}
+
+.textarea-wrp {
+  background: white;
+  border-radius: 30rpx;
+
+}

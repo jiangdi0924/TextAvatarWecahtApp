@@ -1,0 +1,21 @@
+<view class="container">
+  <wxml-to-canvas class="widget"></wxml-to-canvas>
+
+  <!--即时渲染dom-->
+  <!-- <view class="top" style="background:{{rgb}}">
+    <view class="value" style="font-size:{{infoFontSize}}rpx;">{{info}}</view>
+  </view> -->
+  <div class="attr">
+    <view class="page-section">
+      <view class="page-section-title">文本信息</view>
+      <view class="textarea-wrp" style="border-radius: 36rpx;" >
+        <textarea  bindinput="bindlinechange" style="font-size: 40rpx;padding-left: 15px;padding-top:10px;padding-right: 10px;" height="300rpx;" value="{{info}}" />
+      </view>
+    </view>
+    <view style="background:{{rgb}};width:100px;height:24px;" bindtap="toPick"></view>
+    <color-picker bindchangeColor="pickColor" initColor="{{rgb}}" show="{{pick}}" />
+    <button bindtap="renderToCanvas">渲染到canvas</button>
+    <button bindtap="extraImage">导出图片</button>
+    <image src="{{src}}" style="width: 300rpx; height: 300px;"></image>
+  </div>
+</view>
