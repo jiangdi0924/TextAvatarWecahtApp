@@ -1,10 +1,24 @@
 /* pages/addFunction/addFunction.wxss */
 
 @import "../../style/guide.wxss";
+::-webkit-scrollbar{
+ width: 0;
+ height: 0;
+ color: transparent
+}
+.section{
+    margin-bottom: 40px;
+}
+.section_gap{
+    padding: 0 15px;
+}
 .widget {
-  border: 5rpx solid rgb(226, 204, 7);
-  /* width: 50;
-  height: 50; */
+  /* border: 5rpx solid rgb(226, 204, 7);*/
+  margin-top:5px;
+  width: 350rpx;
+  height: 350rpx;
+  position: absolute;
+  z-index: 1;
 }
 .top {
     margin-top: 180rpx;
@@ -32,11 +46,32 @@
 }
 
 .attr {
-  margin-top: 50rpx;
+  margin-top: 400rpx;
+  position: absolute;
+  z-index: 2;
+
 }
 
 .textarea-wrp {
+  height: 180rpx;
   background: white;
   border-radius: 30rpx;
+}
 
+.btn-area {
+  margin-top: 160rpx;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  /* margin: 0 auto; */
+  /* width: 60%; */
+}
+.footer{
+width: 100%;
+position: absolute;
+bottom: 10rpx;
+display:flex;  
+flex-wrap: wrap;
+justify-content: center;
+/* align-items:center; */
 }
