@@ -18,7 +18,6 @@
       </view>
     </view>
     <view style="display:flex;  flex-wrap: wrap;align-items: center;margin-top: 30rpx">
-      <!-- <view class="page-section-title">文本信息</view> -->
       <view class="textarea-wrp" style="border-radius: 36rpx;">
         <textarea bindinput="bindlinechange" style="font-size: 35rpx;padding-left: 15px;padding-top:10px;padding-right: 10px;" value="{{info}}" />
       </view>
@@ -44,14 +43,5 @@
   <view class="footer">
     <text style="font-size:22rpx">Author by Norton 欢迎订阅</text><text style="font-size:22rpx;  font-weight:bold;color:{{wechatColor}}">CScript</text><text style="font-size:22rpx;">公众号</text>
     <!-- <image src="{{authorSrc}}" style="height: 35rpx;  width: 35rpx; border-radius: 50%" mode="aspectFill"></image> -->
-    <!-- <mp-half-screen-dialog bindbuttontap="buttontap" 
-    show="{{show}}" 
-    maskClosable="{{false}}" 
-    title="测试标题B" subTitle="测试标题B的副标题" 
-    desc="辅助描述内容，可根据实际需要安排" tips="辅助提示内容，可根据实际需要安排" 
-    buttons="{{buttons}}">
-
-    </mp-half-screen-dialog>
-        <button class="weui-btn" type="primary" bindtap="open">Open</button> -->
   </view>
 </view>
